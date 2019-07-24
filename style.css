@@ -1,10 +1,13 @@
 body {
-    max-width: wdith 1000px;
-    display: block;
+    max-width: 1000px;
     float:none;
     margin:auto;
     background-color: bisque;
-    font-family:;
+    font-family: "Optima, sans-serif";
+}
+
+main img{
+    width: 500px 200px;
 }
 
 .blog-title{

@@ -1,0 +1,15 @@
+body {
+    max-width: wdith 1000px;
+    display: block;
+    float:none;
+    margin:auto;
+    background-color: bisque;
+    font-family:;
+}
+
+.blog-title{
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-self: auto;
+}

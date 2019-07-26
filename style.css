@@ -2,17 +2,84 @@ body {
     max-width: 1000px;
     float:none;
     margin:auto;
-    background-color: bisque;
-    font-family: "Optima, sans-serif";
+    background-color: white;
+    font-family: Optima;
 }
 
 main img{
-    width: 500px 200px;
+    width: 100%;
+    border: 10px dashed gainsboro;
 }
 
 .blog-title{
-    border: 2px solid white;
+    border: 35px solid gainsboro;
     display: flex;
-    justify-content: center;
+    align-content: center;
     align-self: auto;
+    font-size: 90px;
+    font-family: Georgia;
+    padding:10px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.first-quote{
+    display:block;
+    font-size: 15px;
+    border: 2px dashed black;
+    align-content: center;
+}
+
+.second-quote{
+    display:block;
+    font-size: 15px;
+    border: 2px dashed black;
+    align-content: center;
+}
+
+.intro-box{
+    display:block;
+    padding: 10px 20px; 
+    font-size: 30px;
+    background-color: aliceblue;
+
+}
+
+.tip-title{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main-section{
+    padding:40px 30px;
+    background-color: aliceblue;
+}
+
+.pro-tips{
+    display: inline;
+    border: 4px groove white;
+    font-size:30px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.title{
+    display: block;
+    padding-top: 20px;
+    border-bottom: 1px solid white;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+.subtitle{
+    display:block;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.bonus{
+    border: 2px dotted coral;
+    font-family: georgia;
+    font-size: 20px;
+    font-style: italic;
+    padding:20px;
 }
